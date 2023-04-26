@@ -1,6 +1,8 @@
 import React from 'react'
 import pro from "../assets/myprofile.jpg"
 import arrowr from "../assets/arrowr.png"
+import {Link} from "react-scroll"
+
 
 const Home = () => {
   return (
@@ -12,7 +14,7 @@ const Home = () => {
             corrupti non voluptatibus perferendis provident repellat incidunt aut at, corporis 
             perspiciatis minima modi consectetur earum, officiis blanditiis consequuntur? Quas, </p>
         <div >
-        <button className='text-white w-1/2 group px-2 py-6 my-2 flex items-center rounded-md  bg-gradient-to-r from bg-cyan-500  to-blue-500 cursor-pointer '>Portfolio <span className='mx-1 '><img className='w-1/12 group-hover:rotate-90 duration-300' src={arrowr} alt="" /></span></button>
+        <Link to='portfolio' smooth duration={500} className='text-white w-1/2 group px-2 py-6 my-2 flex items-center rounded-md  bg-gradient-to-r from bg-cyan-500  to-blue-500 cursor-pointer '>Portfolio <span className='mx-1 '><img className='w-1/12 group-hover:rotate-90 duration-300' src={arrowr} alt="" /></span></Link>
         </div>
         </div>
          <div>
