@@ -10,9 +10,9 @@ const Home = () => {
       <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row' >
         <div className='flex justify-center flex-col h-3/4 md:h-full'>
           <h1 className='text-4xl sm:marker:text-7xl font-bold text-white'>I am a Frontend Web Developer</h1>
-          <p className='text-gray-500 py-4 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolores facere, nisi velit quod 
-            corrupti non voluptatibus perferendis provident repellat incidunt aut at, corporis 
-            perspiciatis minima modi consectetur earum, officiis blanditiis consequuntur? Quas, </p>
+          <p className='text-gray-500 py-4 w-full'>Hii Piyush Rai here you, I am from Uttarakhand currently in Bengaluru my major skills
+           are Reactjs,Javascript,html+css thanks for visiting my page checkout my portfolio.Currently
+            looking for an "Internship" or "entry level job" as a Frontend web Developer  </p>
         <div >
         <Link to='portfolio' smooth duration={500} className='text-white w-1/2 group px-2 py-6 my-2 flex items-center rounded-md  bg-gradient-to-r from bg-cyan-500  to-blue-500 cursor-pointer '>Portfolio <span className='mx-1 '><img className='w-1/12 group-hover:rotate-90 duration-300' src={arrowr} alt="" /></span></Link>
         </div>
